@@ -1,0 +1,4 @@
+p {color: red; text-transform: justify; text-indent: 20px; line-height: 30px; direction: rtl; letter-spacing: 2px;word-spacing: -20px;}
+h1 {text-align: left; text-decoration: underline;}
+h2 {text-align: right; text-decoration: overline;}
+h3 {text-align: center;text-decoration: line-through; text-shadow: 1px 10px red;}

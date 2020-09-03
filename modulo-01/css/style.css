@@ -1,0 +1,15 @@
+/* Seletor universal. Reset de página*/
+* {margin: 0;padding: 0;}
+
+/* Seletor tag */
+h1 {color: blue; font-size: 50px;}
+p {color: green; font-size: 12px;}
+
+input[type="text"] {width: 200px; height: 35px; background-color:#ccc; border: none;}
+input[name="email"] {width: 200px; height: 35px; background-color:#ccc; border: none;}
+input[type="submit"] {width: 50px; height: 35px; background-color: green; border: none; color:white; cursor: pointer;}
+
+
+/* Aula 01
+h1 {color:blue; font-size: 60px; font-family: tahoma;}
+*/ 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>var()</title>
+	<style>
+    :root {
+      --bg-color: #230A59;
+      --cor-do-texto: #fff;
+      --espacamento: 20px;
+      --nome: 'Lucas Braga';
+    }
+
+    #div1 {
+      background-color: var(--bg-color);
+      color: var(--cor-do-texto);
+      padding: var(--espacamento);
+    }
+
+    #div2 {
+      background-color: #3E38F2;
+      color: var(--cor-do-texto);
+      padding: var(--espacamento);
+    }
+
+    #div3{
+      background-color: #0029FA;
+      color: var(--cor-do-texto);
+      padding: var(--espacamento);
+    }
+
+    #div4{
+      background: linear-gradient(#230A59, #3E38F2, #0029FA);
+      color: var(--cor-do-texto);
+      padding: 100px;
+    }
+	</style>
+</head>
+<body>
+
+	<div id="div1">
+		<p>Variáveis no CSS podem ser declaradas dentro de um seletor CSS que define seu escopo.</p>
+	</div>
+
+	<div id="div2">
+		<p>Variáveis no CSS podem ser declaradas dentro de um seletor CSS que define seu escopo.</p>
+	</div>
+	
+	<div id="div3">
+		<p>Variáveis no CSS podem ser declaradas dentro de um seletor CSS que define seu escopo.</p>
+	</div>
+  
+  <div id="div4">
+		<p>Variáveis no CSS podem ser declaradas dentro de um seletor CSS que define seu escopo.</p>
+	</div>
+</body>
+</html>

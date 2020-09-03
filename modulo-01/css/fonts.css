@@ -1,0 +1,9 @@
+* {font-size: 100%;}
+p {font-family: Arial, Helvetica, sans-serif; font-variant:small-caps; font-size: 2.5em;}
+
+@font-face {
+    font-family: open_sans;
+    src: url(/fonts/opensans-regular-webfont.woff);
+}
+
+#fonte-open {font-family: open_sans; font-variant: normal; font-size: 2em;}

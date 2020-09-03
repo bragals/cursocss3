@@ -1,0 +1,12 @@
+#padding {background-color: green; color: #fff; 
+    width:500px; padding: 10px 20px 30px 30px; 
+    /* superior > direito > inferior > esquerdo*/
+}
+#margin {background-color: blue; color: #fff; 
+    width:500px; padding: 10px 20px 30px 30px;
+    margin: 20px 30px 20px 40px;
+} 
+
+p {
+    margin: 0;
+}
